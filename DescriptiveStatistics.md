@@ -3,7 +3,7 @@
 |变量名|描述|
 |-----|-----|
 |`static int	INFINITE_WINDOW`|类变量，其创建一个不限制数据集大小的`DescriptiveStatistics`对象|
-|`protected int	windowSize`|成员变量，可通过`setWindowSize(int windowSize)`方法重新设置数据集大小，也可以通过`getWindowSize()`获取数据集大小，一般数据集的遍历会使用到|
+|`protected int	windowSize`|成员变量，可通过`setWindowSize(int windowSize)`方法重新设置数据集大小，然后再通过`addValue(double v)`方法追加数据也可以通过`getWindowSize()`获取数据集大小，一般数据集的遍历会使用到|
 
 ## 构造器
 |构造器|描述|
