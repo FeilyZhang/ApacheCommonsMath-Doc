@@ -26,3 +26,6 @@
 |`double getVariance()`|...|
 |`int hashCode()`|基于统计值返回其哈希值|
 |`String toString()`|...|
+
+## demo
+[ApacheCommonsMath-Code SummaryStatisticsDemo](https://github.com/FeilyZhang/ApacheCommonsMath-Code/blob/master/src/tech/feily/dataanalysis/demo/SummaryStatisticsDemo.java)
